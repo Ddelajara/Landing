@@ -182,6 +182,7 @@ header h2 {
     margin-top: 30px;
     padding: 20px;
     border-radius: 10px;
+    align-items: center;
 }
 
 #titulo-catalogo {
@@ -365,7 +366,7 @@ footer {
 
     header {
         text-align: right;
-         background-image:none;
+        /* background-image:none;*/
          padding: 70px;
        /*  background-position: center; */
 /*         background-size: cover;
@@ -391,25 +392,32 @@ footer {
     }
  
     #chef{
-        max-width: 500px; 
+        width: 100%; 
         border-radius: 10px;
         padding-left: 50px;
         display: block;
         /* height: 300px; */
     }
+
+/*     #reserva-foto{
+        border-radius: 10px;
+        margin-top: 15px;
+        height: 220px; 
+    } */
  
     header h1 {
-        color:burlywood;
+        display: none;
+/*         color:burlywood;
         font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size:30px;
-    }
+        font-size:20px;
+ */    }
     
     header h2 {
-        color: #F2B700;
+         color: burlywood;
         font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: medium;
         font-size: 15px;
-    }
+     }
      
     .container-card {
         display: flex;
@@ -420,6 +428,7 @@ footer {
         margin-top: 30px;
         padding: 20px;
         border-radius: 10px;
+        align-items: center;
     }
 
     .card{
@@ -439,4 +448,64 @@ footer {
         border-radius: 5%;
     }
 
+    .container-reserva {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .contacto-formulario {
+        width: 100%;
+        max-width: 400px;
+      }
+      
+      #reserva-foto {
+       display: none;
+      }
+
+
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        border: 2px solid #F2B700;
+        padding: 10px;
+    /*     max-width: 800px; */
+        width: 100%;
+        border-radius: 10px;
+    }
+
+      /* Estilos para footer con ancho máximo de 768px */
+  footer .contenedor {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer .contenido {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  footer .contenido p {
+    margin: 20px;
+    justify-content:left;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+
+  }
+  footer nav {
+    margin-bottom: 20px;
+  }
+  
+  footer ul {
+
+    width: 100%;
+  }
+
+  footer ul li a {
+    text-align: center;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    padding: 10px;
+  }
 }
