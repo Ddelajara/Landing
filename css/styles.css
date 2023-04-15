@@ -25,6 +25,7 @@ body{
     align-self: center;
     margin-right: 20px;
 }
+
 .item{
     width: auto;
     color: #F2B700;
@@ -352,8 +353,8 @@ footer {
     ul {
         flex-direction: column;
         align-items: flex-start;
-        background-color: #010101;
-        height: 800px;
+        background-color:#A81418;
+        height: 400px;
     }
 
     .container-quienes {
@@ -361,4 +362,52 @@ footer {
         flex-wrap: wrap;
         /* justify-content: space-between; */
     }
+
+    header {
+        text-align: right;
+         background-image:none;
+         padding: 70px;
+       /*  background-position: center; */
+/*         background-size: cover;
+ */        /*background-attachment: fixed;*/
+    }
+
+    .nav-btn1{
+        display: none;
+    }
+
+    .container-navbar{
+/*         display: flex;
+        height: 80px;
+ */        
+        background-color:#010101;
+        /* justify-content: space-between; */
+    }
+
+    .container-quienes {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 150px;
+    }
+ 
+    #chef{
+        max-width: 500px; 
+        border-radius: 10px;
+        padding-left: 50px;
+        /* height: 300px; */
+    }
+ 
+    header h1 {
+        color:burlywood;
+        font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size:30px;
+    }
+    
+    header h2 {
+        color: #F2B700;
+        font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: medium;
+        font-size: 15px;
+    }
+     
 }
