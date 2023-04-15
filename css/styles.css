@@ -394,6 +394,7 @@ footer {
         max-width: 500px; 
         border-radius: 10px;
         padding-left: 50px;
+        display: block;
         /* height: 300px; */
     }
  
@@ -410,4 +411,32 @@ footer {
         font-size: 15px;
     }
      
+    .container-card {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        flex-wrap: wrap;
+        background-color: #A81418;
+        margin-top: 30px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .card{
+        background-color: #F2B700;
+        padding: 50px;
+        width: 100%;
+        box-shadow: 0, 30px, 15px, rgba(0, 0, 0, 0.15 );
+        color: #010101;
+        text-align: left;
+        margin-bottom: 10px;
+        border-color: #010101;
+        border-radius: 20px;
+    }
+
+    .card{
+        max-width: 90%;
+        border-radius: 5%;
+    }
+
 }
