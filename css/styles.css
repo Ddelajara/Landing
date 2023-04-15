@@ -89,19 +89,6 @@ ul li a:hover {
     font-size:medium;
 }
 
-@media (max-width: 768px)
-{
-    ul {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .container-quienes {
-        display: flex;
-        flex-wrap: wrap;
-        /* justify-content: space-between; */
-    }
-}
 
 .elementor-widget-container {
     height:fit-content;
@@ -359,3 +346,19 @@ footer {
     color: #fff;
     text-decoration: none;
   }
+
+  @media (max-width: 768px)
+{
+    ul {
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #010101;
+        height: 800px;
+    }
+
+    .container-quienes {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+    }
+}
